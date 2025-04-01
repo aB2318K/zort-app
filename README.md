@@ -1,12 +1,27 @@
-# React + Vite
+# ZORT-APP - Product Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **frontend-only** React-based product page designed for Zort-app. It features smooth animations with Framer Motion, a responsive layout, and an engaging user experience. The page includes a **Navbar**, a **Hero Section**, **Feature Highlights**, **FAQs**, **Testimonials**, and a **Contact page**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern UI**: Clean and intuitive design for an engaging user experience.
+- **Framer Motion Animations**: Smooth transitions and interactive elements.
+- **Responsive Design**: Optimized for mobile and desktop viewing.
+- **Informative Sections**: Includes a hero section, feature highlights, FAQs, testimonials, and a call to action.
+- **Navbar**: Includes a responsive navigation bar for easy access to different sections of the page.
+- **Contact Page**: Allows users to navigate to a contact form (note: the contact form is non-functional as there is no backend).
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Framer Motion (for animations)
+- Tailwind CSS (for styling)
+- React Icons (for vector icons)
+- Vite (for development/build tooling)
+- React Router (for navigation between pages)
+
+## Deployment
+
+The product page is deployed on Vercel. You can check it out live here:  
+[ZORT-APP](https://zort-app.vercel.app/)
+
