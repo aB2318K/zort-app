@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const PhoneMockup = ({ children, scanProgress, isActive = true }) => {
+const PhoneMockup = ({ children, isActive = true }) => {
   return (
     <motion.div 
       initial={false}
